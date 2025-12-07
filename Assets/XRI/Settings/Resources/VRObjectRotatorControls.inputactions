@@ -1,0 +1,74 @@
+{
+    "name": "VRObjectRotatorControls",
+    "maps": [
+        {
+            "name": "XRSimulator",
+            "id": "855cd0c5-e8ce-4c5b-abe0-defe27be9468",
+            "actions": [
+                {
+                    "name": "Trigger",
+                    "type": "Button",
+                    "id": "7e9f9a16-c724-4bb6-8086-7b36f4d2429d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TouchpadTouch",
+                    "type": "Button",
+                    "id": "cfef3dc4-02d1-4664-b88c-1d1a1cc9b595",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TouchpadPosition",
+                    "type": "Value",
+                    "id": "6b90aaef-b2bf-43cf-9ded-24385fe4a697",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5633760e-fa03-4929-9599-05e5e8456529",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchpadTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3103f341-9adf-40fb-960e-c65fab4ab376",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchpadPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "98fd2c42-84bf-41d1-8c83-50ca413bbcd5",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
